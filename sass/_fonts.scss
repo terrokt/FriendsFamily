@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'ProximaNova';
+  src: url('../static/fonts/ProximaNova/ProximaNova-Regular.eot');
+  src: url('../static/fonts/ProximaNova/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../static/fonts/ProximaNova/ProximaNova-Regular.woff') format('woff'),
+  url('../static/fonts/ProximaNova/ProximaNova-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  }
+
+@font-face {
+  font-family: 'ProximaNovaSB';
+  src: url('../static/fonts/ProximaNovaSB/ProximaNova-Semibold.eot');
+  src: url('../static/fonts/ProximaNovaSB/ProximaNova-Semibold.eot?#iefix') format('embedded-opentype'),
+  url('../static/fonts/ProximaNovaSB/ProximaNova-Semibold.woff') format('woff'),
+  url('../static/fonts/ProximaNovaSB/ProximaNova-Semibold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  }
+
+@font-face {
+  font-family: 'Corinthia';
+  src: url('../static/fonts/Cortinthia/Corinthia.eot');
+  src: url('../static/fonts/Cortinthia/Corinthia.eot?#iefix') format('embedded-opentype'),
+  url('../static/fonts/Cortinthia/Corinthia.woff') format('woff'),
+  url('../static/fonts/Cortinthia/Corinthia.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  }
+
+@mixin Corinthia {
+  font-family: 'Corinthia' ,sans-serif;
+}
+
+@mixin ProximaNovaSB {
+  font-family: 'ProximaNovaSB' ,sans-serif;
+}
+
+@mixin ProximaNova {
+  font-family:'ProximaNova', sans-serif;
+}
